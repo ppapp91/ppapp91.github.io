@@ -6104,7 +6104,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #EDF5F7 !important;
+  background-color: #D9CCBB!important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -6226,7 +6226,7 @@ button.bg-dark:focus {
 }
 
 .border-secondary {
-  border-color: #EDF5F7 !important;
+  border-color: #D9CCBB!important;
 }
 
 .border-success {
@@ -9272,7 +9272,7 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 .text-secondary {
-  color: #EDF5F7 !important;
+  color: #D9CCBB!important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
