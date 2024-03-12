@@ -25,7 +25,7 @@
   --info: #17a2b8;
   --warning: #ffc107;
   --danger: #dc3545;
-  --light: #F0EADE;
+  --light: #FEFBF6;
   --dark: #756448;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
@@ -61,7 +61,7 @@ body {
   line-height: 1.5;
   color: #818491;
   text-align: left;
-  background-color: #F0EADE;
+  background-color: #FEFBF6;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -532,7 +532,7 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #F0EADE;
+  background-color: #FEFBF6;
   border: 2px solid #dee2e6;
   max-width: 100%;
   height: auto;
@@ -2587,8 +2587,8 @@ fieldset:disabled a.btn {
 
 .btn-light {
   color: #212529;
-  background-color: #F0EADE;
-  border-color: #F0EADE;
+  background-color: #FEFBF6;
+  border-color: #FEFBF6;
 }
 
 .btn-light:hover {
@@ -2606,8 +2606,8 @@ fieldset:disabled a.btn {
 
 .btn-light.disabled, .btn-light:disabled {
   color: #212529;
-  background-color: #F0EADE;
-  border-color: #F0EADE;
+  background-color: #FEFBF6;
+  border-color: #FEFBF6;
 }
 
 .btn-light:not(:disabled):not(.disabled):active, .btn-light:not(:disabled):not(.disabled).active,
@@ -2852,14 +2852,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-light {
-  color: #F0EADE;
-  border-color: #F0EADE;
+  color: #FEFBF6;
+  border-color: #FEFBF6;
 }
 
 .btn-outline-light:hover {
   color: #212529;
-  background-color: #F0EADE;
-  border-color: #F0EADE;
+  background-color: #FEFBF6;
+  border-color: #FEFBF6;
 }
 
 .btn-outline-light:focus, .btn-outline-light.focus {
@@ -2867,15 +2867,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-light.disabled, .btn-outline-light:disabled {
-  color: #F0EADE;
+  color: #FEFBF6;
   background-color: transparent;
 }
 
 .btn-outline-light:not(:disabled):not(.disabled):active, .btn-outline-light:not(:disabled):not(.disabled).active,
 .show > .btn-outline-light.dropdown-toggle {
   color: #212529;
-  background-color: #F0EADE;
-  border-color: #F0EADE;
+  background-color: #FEFBF6;
+  border-color: #FEFBF6;
 }
 
 .btn-outline-light:not(:disabled):not(.disabled):active:focus, .btn-outline-light:not(:disabled):not(.disabled).active:focus,
@@ -3770,15 +3770,15 @@ input[type="button"].btn-block {
 }
 
 .custom-range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 1px #F0EADE, 0 0 0 0.2rem rgba(228, 122, 46, 0.25);
+  box-shadow: 0 0 0 1px #FEFBF6, 0 0 0 0.2rem rgba(228, 122, 46, 0.25);
 }
 
 .custom-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #F0EADE, 0 0 0 0.2rem rgba(228, 122, 46, 0.25);
+  box-shadow: 0 0 0 1px #FEFBF6, 0 0 0 0.2rem rgba(228, 122, 46, 0.25);
 }
 
 .custom-range:focus::-ms-thumb {
-  box-shadow: 0 0 0 1px #F0EADE, 0 0 0 0.2rem rgba(228, 122, 46, 0.25);
+  box-shadow: 0 0 0 1px #FEFBF6, 0 0 0 0.2rem rgba(228, 122, 46, 0.25);
 }
 
 .custom-range::-moz-focus-outer {
@@ -3965,8 +3965,8 @@ input[type="button"].btn-block {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-  background-color: #F0EADE;
-  border-color: #dee2e6 #dee2e6 #F0EADE;
+  background-color: #FEFBF6;
+  border-color: #dee2e6 #dee2e6 #FEFBF6;
 }
 
 .nav-tabs .dropdown-menu {
@@ -4760,7 +4760,7 @@ a.badge-danger:focus, a.badge-danger.focus {
 
 .badge-light {
   color: #212529;
-  background-color: #F0EADE;
+  background-color: #FEFBF6;
 }
 
 a.badge-light:hover, a.badge-light:focus {
@@ -6104,7 +6104,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #D9CCBB!important;
+  background-color: #F0EADE!important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -6154,7 +6154,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #F0EADE !important;
+  background-color: #FEFBF6 !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -6226,7 +6226,7 @@ button.bg-dark:focus {
 }
 
 .border-secondary {
-  border-color: #D9CCBB!important;
+  border-color: #F0EADE!important;
 }
 
 .border-success {
@@ -6246,7 +6246,7 @@ button.bg-dark:focus {
 }
 
 .border-light {
-  border-color: #F0EADE !important;
+  border-color: #FEFBF6 !important;
 }
 
 .border-dark {
@@ -9272,7 +9272,7 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 .text-secondary {
-  color: #D9CCBB!important;
+  color: #F0EADE!important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
@@ -9312,7 +9312,7 @@ a.text-danger:hover, a.text-danger:focus {
 }
 
 .text-light {
-  color: #F0EADE !important;
+  color: #FEFBF6 !important;
 }
 
 a.text-light:hover, a.text-light:focus {
@@ -9513,7 +9513,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .navbar-dark .navbar-nav .nav-link {
   padding: 25px 10px;
-  color: #F0EADE;
+  color: #FEFBF6;
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: 600;
@@ -9575,7 +9575,7 @@ a.text-dark:hover, a.text-dark:focus {
   border: none;
   outline: none !important;
   padding: 18px 20px 20px 28px;
-  background: #F0EADE;
+  background: #FEFBF6;
 }
 
 .btn-play:before {
@@ -9588,7 +9588,7 @@ a.text-dark:hover, a.text-dark:focus {
   display: block;
   width: 60px;
   height: 60px;
-  background: #F0EADE;
+  background: #FEFBF6;
   border-radius: 100%;
   animation: pulse-border 1500ms ease-out infinite;
 }
@@ -9603,7 +9603,7 @@ a.text-dark:hover, a.text-dark:focus {
   display: block;
   width: 60px;
   height: 60px;
-  background: #F0EADE;
+  background: #FEFBF6;
   border-radius: 100%;
   transition: all 200ms;
 }
@@ -9651,7 +9651,7 @@ a.text-dark:hover, a.text-dark:focus {
   z-index: 999;
   font-size: 30px;
   font-weight: normal;
-  color: #F0EADE;
+  color: #FEFBF6;
   background: #000000;
   opacity: 1;
 }
@@ -9679,7 +9679,7 @@ a.text-dark:hover, a.text-dark:focus {
     height: 30px;
     top: calc(50% - 15px);
     left: calc(50% - 15px);
-    background: #F0EADE;
+    background: #FEFBF6;
     border: 2px solid #DDD5C0;
     transform: rotate(45deg);
     z-index: 1;
@@ -9718,7 +9718,7 @@ a.text-dark:hover, a.text-dark:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid #F0EADE;
+  border: 2px solid #FEFBF6;
   text-decoration: none;
   transition: .5s;
   opacity: 0;
@@ -9753,7 +9753,7 @@ a.text-dark:hover, a.text-dark:focus {
   align-items: center;
   justify-content: center;
   color: #DDD5C0;
-  background: #F0EADE;
+  background: #FEFBF6;
   font-size: 30px;
 }
 
